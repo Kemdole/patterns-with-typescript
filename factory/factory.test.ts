@@ -7,5 +7,6 @@ describe('Factory', () => {
     const product2 = factory.factoryMethod('2');
     expect(typeof product1.method()).toBe('string');
     expect(typeof product2.method()).toBe('string');
+    // master test
   });
 });
