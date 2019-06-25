@@ -8,13 +8,13 @@ interface Product {
 
 class Product1 implements Product {
   public method(): string {
-    return 'method of product 1';
+    return 'product 1';
   }
 }
 
 class Product2 implements Product {
   public method(): string {
-    return 'method of product 2';
+    return 'product 2';
   }
 }
 
